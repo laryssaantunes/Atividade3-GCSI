@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LISTA DE PDM</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Programação para Dispositivos Móveis 2</h1>
+    
+    <section>
+        <h2>Nome da disciplina</h2>
+        <p id="disciplina">Programação para Dispositivos Móveis 2</p>
+    </section>
+
+    <section>
+        <h2>Soma de dois números</h2>
+        <input id="num1" type="number" name="número 1">
+        <input id="num2" type="number" name="número 2">
+        <button onclick="Somarnumeros()">Somar</button>
+        <p id="resultadosSoma"></p>
+    </section>
+
+    <section>
+        <h2>Média de 4 notas</h2>
+        <input id="nota1" type="number" name="nota 1">
+        <input id="nota2" type="number" name="nota 2">
+        <input id="nota3" type="number" name="nota 3">
+        <input id="nota4" type="number" name="nota 4">
+        <button onclick="calcularMedia()">Calcular Média</button>
+        <p id="resultadoMedia"></p>
+    </section>
+
+    <section>
+        <h2>Tabuada</h2>
+        <input id="numerodatabuada" type="number" name="numero">
+        <button onclick="mostrarTabuada()">Mostrar Tabuada</button>
+        <p id="resultadodatabuada"></p>
+    </section>
+
+    <section>
+        <h2>Maior entre 3 valores</h2>
+        <input id="valor1" type="number" name="valor 1">
+        <input id="valor2" type="number" name="valor 2">
+        <input id="valor3" type="number" name="valor 3">
+        <button onclick="maiorValor()">Calcular Maior</button>
+        <p id="resultadoMaior"></p>
+    </section>
+
+    <section>
+        <h2>Vetor de 10 posições</h2>
+        <button onclick="imprimirImpares()">Imprimir Ímpares</button>
+        <p id="resultadoImpares"></p>
+    </section>
+
+    <section>
+        <h2>Nome ao contrário</h2>
+        <input id="nome" type="text" name="nome">
+        <button onclick="nomeContrario()">Mostrar Nome Invertido</button>
+        <p id="resultadoNome"></p>
+    </section>
+
+    <section>
+        <h2>Funcionários com salário acima do mínimo</h2>
+        <button onclick="filtrarFuncionarios()">Mostrar Funcionários</button>
+        <p id="resultadoFuncionarios"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
